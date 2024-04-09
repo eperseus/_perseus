@@ -1,0 +1,27 @@
+<header class="header">
+  <mat-toolbar color="primary">
+
+    <span>Mahmut APP</span>
+    <span class="example-spacer"></span>
+
+
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/">
+        <mat-icon>home</mat-icon>
+        <span>AnaSayfa</span>
+      </button>
+      <button mat-menu-item routerLink="/hakkinda">
+        <mat-icon>perm_device_information</mat-icon>
+        <span>Hakkında</span>
+      </button>
+      <button mat-menu-item routerLink="/cards">
+        <mat-icon>card_membership</mat-icon>
+        <span>Kart Vizit</span>
+      </button>
+    </mat-menu>
+
+  </mat-toolbar>
+</header>
