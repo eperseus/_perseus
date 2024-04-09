@@ -1,13 +1,14 @@
 {
   "name": "kartvizit",
   "version": "0.0.0",
-  "scripts": {
+  "scripts": { "deploy": "ng build -sm -ec -bh /_perseus/ & ngh –no-silent",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
